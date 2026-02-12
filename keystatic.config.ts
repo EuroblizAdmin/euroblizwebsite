@@ -2,7 +2,13 @@ import { config, fields, collection } from '@keystatic/core';
 
 export default config({
   storage: process.env.NODE_ENV === 'production'
-    ? { kind: 'local' }
+    ? {
+        kind: 'github',
+        repo: {
+          owner: process.env.NEXT_PUBLIC_GITHUB_OWNER!,
+          name: process.env.NEXT_PUBLIC_GITHUB_REPO!,
+        },
+      }
     : { kind: 'local' },
 
   ui: {

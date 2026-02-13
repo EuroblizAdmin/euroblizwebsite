@@ -30,18 +30,22 @@ export async function middleware(request: NextRequest) {
     pathname.startsWith('/keystatic') ||
     pathname.startsWith('/api/keystatic');
 
+  // Check if this is a Keystatic GitHub OAuth route (needs to bypass auth)
+  const isKeystaticGithubOAuth =
+    pathname.startsWith('/api/keystatic/github/');
+
   // Check if this is an auth API route
   const isAuthApiRoute = pathname.startsWith('/api/auth');
 
   // Don't protect the login page itself
   const isLoginPage = pathname === LOGIN_PAGE;
 
-  // Skip i18n middleware for login page and auth API routes - just allow them through
-  if (isLoginPage || isAuthApiRoute) {
+  // Skip i18n middleware for login page, auth API routes, and Keystatic OAuth routes
+  if (isLoginPage || isAuthApiRoute || isKeystaticGithubOAuth) {
     return NextResponse.next();
   }
 
-  // If it's a Keystatic route (and not the login page), check authentication
+  // If it's a Keystatic route (and not the login page or OAuth), check authentication
   if (isKeystaticRoute) {
     const isAuthenticated = await checkAuth(request);
 

@@ -19,7 +19,7 @@ function getSessionSecret(): string {
 
 export const sessionOptions: SessionOptions = {
   password: getSessionSecret(),
-  cookieName: 'keystatic_session',
+  cookieName: 'admin_auth_session',
   cookieOptions: {
     secure: process.env.NODE_ENV === 'production',
     httpOnly: true,

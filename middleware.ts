@@ -67,8 +67,7 @@ export const config = {
   matcher: [
     "/",
     "/(en|fr)/:path*",
-    "/keystatic/:path*",
-    "/api/keystatic/:path*",
+    "/keystatic",
     "/keystatic-login",
     "/api/auth/:path*",
   ],

@@ -1,7 +1,7 @@
 import { config, fields, collection } from '@keystatic/core';
 
 export default config({
-  storage: process.env.NODE_ENV === 'production'
+  storage: process.env.KEYSTATIC_STORAGE_KIND === 'github'
     ? {
         kind: 'github',
         repo: {

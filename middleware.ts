@@ -68,6 +68,7 @@ export const config = {
     "/",
     "/(en|fr)/:path*",
     "/keystatic",
+    "/keystatic/:path*",
     "/keystatic-login",
     "/api/auth/:path*",
   ],

@@ -1,5 +1,6 @@
 import { createReader } from '@keystatic/core/reader';
-import keystaticConfig from '../keystatic.config';
+import readerConfig from '../keystatic.config.reader';
 
 // Create a reader instance for reading Keystatic content
-export const reader = createReader(process.cwd(), keystaticConfig);
+// Uses local storage mode to read from filesystem (content committed to repo)
+export const reader = createReader(process.cwd(), readerConfig);

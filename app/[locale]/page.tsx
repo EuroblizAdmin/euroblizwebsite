@@ -9,12 +9,12 @@ import { PartnersSection } from "@/components/partners-section"
 import { ContactSection } from "@/components/contact-section"
 import { Footer } from "@/components/footer"
 import { createReader } from '@keystatic/core/reader'
-import keystaticConfig from '@/keystatic.config'
+import readerConfig from '@/keystatic.config.reader'
 
 export default async function Home(props: { params: Promise<{ locale: string }> }) {
   const params = await props.params
   const locale = params.locale
-  const reader = createReader(process.cwd(), keystaticConfig)
+  const reader = createReader(process.cwd(), readerConfig)
 
   // Fetch testimonials from Keystatic
   const testimonialsData = await reader.collections.testimonials.all()

@@ -2,7 +2,6 @@ import { Navigation } from "@/components/navigation"
 import { Hero } from "@/components/hero"
 import { IdeasSection } from "@/components/ideas-section"
 import { ServicesSection } from "@/components/services-section"
-import { TeamSection } from "@/components/team-section"
 import { TestimonialsSection } from "@/components/testimonials-section"
 import { BlogSection } from "@/components/blog-section"
 import { PartnersSection } from "@/components/partners-section"
@@ -11,9 +10,18 @@ import { Footer } from "@/components/footer"
 import { createReader } from '@keystatic/core/reader'
 import readerConfig from '@/keystatic.config.reader'
 
+// Generate static pages for all locales at build time
+export async function generateStaticParams() {
+  return [{ locale: 'en' }, { locale: 'fr' }]
+}
+
+// Force static generation (no revalidate = fully static, no serverless functions)
+export const dynamic = 'force-static'
+
 export default async function Home(props: { params: Promise<{ locale: string }> }) {
   const params = await props.params
   const locale = params.locale
+
   const reader = createReader(process.cwd(), readerConfig)
 
   // Fetch testimonials from Keystatic

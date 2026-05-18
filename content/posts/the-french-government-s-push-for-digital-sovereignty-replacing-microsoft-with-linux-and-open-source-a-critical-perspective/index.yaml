@@ -20,7 +20,7 @@ content_en: >-
   discussion.
 
 
-  (##) The Promise and the Risks of Open Source in Government Infrastructure
+  (H2) The Promise and the Risks of Open Source in Government Infrastructure
 
 
   Linux distributions excel in highly customized environments where innovation
@@ -46,7 +46,7 @@ content_en: >-
   components
 
 
-  (##) The Shared Source Model: A More Practical Path?
+  (H2) The Shared Source Model: A More Practical Path?
 
 
   As someone who runs a startup building a custom Linux distribution (currently
@@ -61,13 +61,13 @@ content_en: >-
   This allows:
 
 
-  - The government to benefit from innovation by startups
+  * The government to benefit from innovation by startups
 
-  - Developers to be properly compensated through royalties or licensing
+  * Developers to be properly compensated through royalties or licensing
 
-  - Better control over critical components
+  * Better control over critical components
 
-  - Reduced risk of widespread exploitation of publicly available code
+  * Reduced risk of widespread exploitation of publicly available code
 
 
   Government infrastructure does not operate under a traditional business model,
@@ -77,7 +77,7 @@ content_en: >-
   technology development.
 
 
-  (##) A Concerning Coincidence
+  (H2) A Concerning Coincidence
 
 
   Interestingly, shortly after the announcement of this Microsoft-to-Linux
@@ -92,7 +92,7 @@ content_en: >-
   practices, and deployment strategies.
 
 
-  (##) Final Thoughts
+  (H2) Final Thoughts
 
 
   Deploying open-source software in public infrastructure is not inherently
@@ -100,13 +100,13 @@ content_en: >-
   French government should consider a hybrid approach:
 
 
-  - Allow and encourage startups to innovate
+  * Allow and encourage startups to innovate
 
-  - Adopt a shared source / trademarked utility model
+  * Adopt a shared source / trademarked utility model
 
-  - Ensure critical components remain under national control
+  * Ensure critical components remain under national control
 
-  - Properly fund and compensate the companies delivering these sovereign
+  * Properly fund and compensate the companies delivering these sovereign
   solutions
 
 

@@ -1,0 +1,124 @@
+title_en: >-
+  The French Government’s Push for Digital Sovereignty: Replacing Microsoft with
+  Linux and Open Source — A Critical Perspective
+excerpt_en: >-
+  The current mandate fromthe French Government has lot of us in the tech sector
+  thinking about critical perspective in such decisions. IN the month of May, we
+  are having a Bits & Pretzels Community Event in Lille and on eof the topic we
+  will discuss is digital Sovereiggnty. On such occasion it was worth putting
+  some thoughts on the subjects
+content_en: >-
+  Recently, the French government announced a major mandate to replace Microsoft
+  applications across public infrastructure with Linux and open-source
+  alternatives. This move is part of a broader, long-standing European ambition
+  to achieve digital sovereignty — reducing dependence on foreign (primarily
+  American) technology providers.
+
+
+  While the intention is understandable and even admirable, the approach raises
+  important technical, security, and economic questions that deserve honest
+  discussion.
+
+
+  ## The Promise and the Risks of Open Source in Government Infrastructure
+
+
+  Linux distributions excel in highly customized environments where innovation
+  in energy efficiency, memory usage, sustainability, and performance is
+  critical. However, true digital sovereignty means more than simply switching
+  operating systems. It implies full independence from foreign technologies and
+  control over the entire stack.
+
+
+  A key challenge with open source is transparency itself: because the source
+  code is publicly available, it can expose vulnerabilities and backdoors. While
+  open source enables rapid innovation and community contributions, it also
+  creates an environment where malicious actors can study the code in detail.
+
+
+  This leads to an important distinction. Many developers, including the
+  well-known game developer Jonathan Blow, have argued that critical systems —
+  especially in defense, military, or high-stakes government infrastructure —
+  should avoid heavy reliance on open source precisely for these security
+  reasons. True sovereignty, in this view, requires building proprietary
+  software from the ground up, with closed repositories and independently
+  developed libraries that do not depend on external APIs or third-party
+  components
+
+
+  ## The Shared Source Model: A More Practical Path?
+
+
+  As someone who runs a startup building a custom Linux distribution (currently
+  available for Raspberry Pi), I am a strong supporter of open-source
+  innovation. However, I believe a pure open-source model may not be the most
+  effective path for government infrastructure.
+
+
+  A more balanced and sustainable approach could be a shared source model. In
+  this model, companies develop core utilities and tools, keep certain strategic
+  components proprietary or trademarked, and license them to the government.
+  This allows:
+
+
+  - The government to benefit from innovation by startups
+
+  - Developers to be properly compensated through royalties or licensing
+
+  - Better control over critical components
+
+  - Reduced risk of widespread exploitation of publicly available code
+
+
+  Government infrastructure does not operate under a traditional business model,
+  which makes pure open source challenging from a sustainability and security
+  standpoint. The real innovation needed here is not just in the operating
+  system itself, but in the business and licensing models that support sovereign
+  technology development.
+
+
+  ## A Concerning Coincidence
+
+
+  Interestingly, shortly after the announcement of this Microsoft-to-Linux
+  migration, news broke about a massive data leak affecting 18 million records
+  from the French social security database. The timing was unfortunate and
+  quickly faded from public discourse.
+
+
+  If incidents of this scale continue or increase even after the transition to
+  open-source systems, it would suggest that the core issue may not be the
+  choice of operating system, but rather the underlying infrastructure, security
+  practices, and deployment strategies.
+
+
+  ## Final Thoughts
+
+
+  Deploying open-source software in public infrastructure is not inherently
+  problematic. However, for it to genuinely serve digital sovereignty, the
+  French government should consider a hybrid approach:
+
+
+  - Allow and encourage startups to innovate
+
+  - Adopt a shared source / trademarked utility model
+
+  - Ensure critical components remain under national control
+
+  - Properly fund and compensate the companies delivering these sovereign
+  solutions
+
+
+  Digital sovereignty cannot be achieved merely by changing the operating
+  system. It requires a thoughtful strategy that balances transparency,
+  innovation, security, and economic sustainability.
+
+
+  I’m genuinely curious to see how France will execute this ambitious
+  transition. Will it truly strengthen European technological independence, or
+  will it create new vulnerabilities? The coming years will tell.
+image: >-
+  /images/blog/the-french-government-s-push-for-digital-sovereignty-replacing-microsoft-with-linux-and-open-source-a-critical-perspective/image.jpg
+date: May 18, 2026
+readTime: 5 mins

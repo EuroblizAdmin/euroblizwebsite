@@ -20,7 +20,7 @@ content_en: >-
   discussion.
 
 
-  ## The Promise and the Risks of Open Source in Government Infrastructure
+  (##) The Promise and the Risks of Open Source in Government Infrastructure
 
 
   Linux distributions excel in highly customized environments where innovation
@@ -46,7 +46,7 @@ content_en: >-
   components
 
 
-  ## The Shared Source Model: A More Practical Path?
+  (##) The Shared Source Model: A More Practical Path?
 
 
   As someone who runs a startup building a custom Linux distribution (currently
@@ -77,7 +77,7 @@ content_en: >-
   technology development.
 
 
-  ## A Concerning Coincidence
+  (##) A Concerning Coincidence
 
 
   Interestingly, shortly after the announcement of this Microsoft-to-Linux
@@ -92,7 +92,7 @@ content_en: >-
   practices, and deployment strategies.
 
 
-  ## Final Thoughts
+  (##) Final Thoughts
 
 
   Deploying open-source software in public infrastructure is not inherently
